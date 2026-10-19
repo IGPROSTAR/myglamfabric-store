@@ -1,1 +1,95 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MYGLAMFABRIC | Style Your World</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      background: #fffaf7;
+    }
+    header {
+      padding: 22px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eaded8;
+    }
+    .logo { letter-spacing: 3px; font-weight: bold; }
+    .hero {
+      padding: 80px 8%;
+      text-align: center;
+      background: #f1e2da;
+    }
+    .hero h1 { font-size: clamp(32px, 6vw, 58px); }
+    .hero p { line-height: 1.7; }
+    .button {
+      display: inline-block;
+      padding: 14px 25px;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+    .products {
+      padding: 45px 7%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      padding: 28px 16px;
+      background: white;
+      border: 1px solid #eee1da;
+      text-align: center;
+    }
+    .symbol { font-size: 45px; }
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">MYGLAMFABRIC</div>
+    <span>Fashion · Beauty · Lifestyle</span>
+  </header>
+
+  <section class="hero">
+    <p>YOUR STYLE, YOUR STATEMENT</p>
+    <h1>Discover Your Everyday Luxury</h1>
+    <p>Explore fashion, jewellery and beauty essentials.</p>
+    <a class="button" href="#products">EXPLORE COLLECTION</a>
+  </section>
+
+  <section class="products" id="products">
+    <article class="product">
+      <div class="symbol">✧</div>
+      <h3>Fashion</h3>
+      <p>Everyday styles, elevated.</p>
+    </article>
+    <article class="product">
+      <div class="symbol">◇</div>
+      <h3>Jewellery</h3>
+      <p>Details that make you shine.</p>
+    </article>
+    <article class="product">
+      <div class="symbol">✿</div>
+      <h3>Beauty</h3>
+      <p>Your beauty, your confidence.</p>
+    </article>
+  </section>
+
+  <footer>
+    MYGLAMFABRIC · Style Your World
+  </footer>
+</body>
+</html>
